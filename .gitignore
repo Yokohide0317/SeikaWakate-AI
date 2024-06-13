@@ -1,3 +1,13 @@
+# bulk
+GSE109607_CountData_paper.csv
+GSE109607_family.xml
+
+# scRNA
+*.h5ad
+barcodes.tsv
+genes.tsv
+matrix.mtx
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
