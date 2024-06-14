@@ -1,6 +1,12 @@
 # bulk
 GSE109607_CountData_paper.csv
 GSE109607_family.xml
+*.gz
+
+# microbiome
+*.qza
+*.qzv
+qiime/
 
 # scRNA
 *.h5ad
