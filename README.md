@@ -1,8 +1,12 @@
 # SeikaWakate-AI
 2024年九州支部主催、「話題のAIツールで生化学を遊び倒せ！」用のリポジトリ
 
+---
 
-# ダウンロードデータ
+# ChatGPTを活用！Pythonでデータ解析
+
+## 説明 & Google Colaboratoryの使い方
+[ChatGPT企画_説明スライド.pdf](https://github.com/Yokohide0317/SeikaWakate-AI/blob/main/slides/ChatGPT%E4%BC%81%E7%94%BB_%E8%AA%AC%E6%98%8E%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%89.pdf)
 
 ## 1. bulk RNA-Seq
 
