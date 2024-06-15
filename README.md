@@ -34,6 +34,8 @@
 # 前提
 あなたは優秀なアシスタントです。
 私は生物学者で、Python初心者です。細かく教えて下さい。
+
+# やりたいこと
 Google Colaboratoryでcsvを読み込みたいです。
 `/contents/bulkRNASeq_TPM-prep-HT.csv`にアップロードしました。
 一番左の列をindexとして、読み込む方法を教えて下さい。
@@ -43,7 +45,7 @@ Google Colaboratoryでcsvを読み込みたいです。
 ```
 # やりたいこと
 読み込んだら、以下のようなデータになっていました。
-Groupという行に、HT-C、HT-C、HT-OPC、HT-OPC、HT-GSE、 HT-GSE 」を入れたいです。
+Groupという行に、HT-C、HT-C、HT-OPC、HT-OPC、HT-GSE、 HT-GSE を入れたいです。
 
 # データ
 	SFN	CDKN1A	MAD1L1	CCNE2	E2F1	TGFB3	Group
