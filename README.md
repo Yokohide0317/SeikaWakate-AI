@@ -31,6 +31,9 @@
 
 1. データの読み込み
 ```
+# 前提
+あなたは優秀なアシスタントです。
+私は生物学者で、Python初心者です。細かく教えて下さい。
 Google Colaboratoryでcsvを読み込みたいです。
 `/contents/bulkRNASeq_TPM-prep-HT.csv`にアップロードしました。
 一番左の列をindexとして、読み込む方法を教えて下さい。
@@ -38,10 +41,11 @@ Google Colaboratoryでcsvを読み込みたいです。
 
 2. グループ列の追加
 ```
+# やりたいこと
 読み込んだら、以下のようなデータになっていました。
 Groupという行に、HT-C、HT-C、HT-OPC、HT-OPC、HT-GSE、 HT-GSE 」を入れたいです。
 
----
+# データ
 	SFN	CDKN1A	MAD1L1	CCNE2	E2F1	TGFB3	Group
 HT-C1	109.9	15.99	11.98	6.862	39.31	2.1440	HT-C
 HT-C2	136.3	20.81	13.08	7.282	44.13	1.3610	HT-C
@@ -124,7 +128,7 @@ Ravindranathan P, Pasham D, Balaji U, Cardenas J, Gu J, Toden S, Goel A. Mechani
 ④後
 ![箱ひげ図](sources/img/microbiome/checkpoint02.png)
 
-④後
+⑤後
 ![積み上げ棒グラフ](sources/img/microbiome/checkpoint03.png)
 
 
