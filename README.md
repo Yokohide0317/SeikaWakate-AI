@@ -13,6 +13,7 @@
 - GSE: ブドウ種子エキス
 - OPC: オリゴメリック・プロアントシアニジン
 
+
 ### 手順（例）
 | No. | 手順 | キーワード |
 | :---: | --- | --- |
@@ -22,8 +23,71 @@
 | 4 | 3をカスタマイズ |  |
 
 <details>
+<summary>ChatGPTへの指示例</summary>
+
+1. データの読み込み
+```
+Google Colaboratoryでcsvを読み込みたいです。
+`/contents/bulkRNASeq_TPM-prep-HT.csv`にアップロードしました。
+一番左の列をindexとして、読み込む方法を教えて下さい。
+```
+
+2. グループ列の追加
+```
+読み込んだら、以下のようなデータになっていました。
+Groupという行に、HT-C、HT-C、HT-OPC、HT-OPC、HT-GSE、 HT-GSE 」を入れたいです。
+
+---
+	SFN	CDKN1A	MAD1L1	CCNE2	E2F1	TGFB3	Group
+HT-C1	109.9	15.99	11.98	6.862	39.31	2.1440	HT-C
+HT-C2	136.3	20.81	13.08	7.282	44.13	1.3610	HT-C
+HT-OPC1	186.6	53.71	14.21	6.255	40.06	1.2950	HT-OPC
+HT-OPC2	175.7	46.12	12.13	6.907	38.95	0.8241	HT-OPC
+HT-GSE1	193.5	45.99	10.92	4.911	28.10	1.0750	HT-GSE
+HT-GSE2	194.7	55.96	11.76	4.427	30.49	0.6942	HT-GSE
+---
+
+```
+
+3. `TGFB3`を棒グラフに
+```
+先程のデータを棒グラフで可視化したいです。
+TGFB3行ｙ軸に、Group行ｘ軸に使用してください。
+```
+
+4. 3をカスタマイズ
+```
+先程の棒グラフを次のようにカスタマイズしてください。
+・描写範囲を縦長に
+・色を、HT-Cは灰色、HT-OPCが緑、HT-GSEが赤
+・エラーバーを追加
+・グラフのタイトルを追加
+・y軸のラベルを変更
+```
+
+
+</details>
+
+<details>
+<summary>画像</summary>
+
+②後
+![グループ列の追加](sources/img/bulkRNA-Seq/checkpoint01.png)
+
+③後
+![棒グラフ](sources/img/bulkRNA-Seq/checkpoint02.png)
+
+④後
+![棒グラフカスタマイズ](sources/img/bulkRNA-Seq/checkpoint03.png)
+
+
+</details>
+
+<details>
 <summary>Cite</summary>
+```
 Ravindranathan P, Pasham D, Balaji U, Cardenas J, Gu J, Toden S, Goel A. Mechanistic insights into anticancer properties of oligomeric proanthocyanidins from grape seeds in colorectal cancer. Carcinogenesis. 2018 May 28;39(6):767-777. doi: 10.1093/carcin/bgy034. PMID: 29684110; PMCID: PMC5972632.
+```
 </details>
 
 ---
@@ -46,6 +110,21 @@ Ravindranathan P, Pasham D, Balaji U, Cardenas J, Gu J, Toden S, Goel A. Mechani
 | 3 | グループ列の追加 |  |
 | 4 | `d__Bacteria;p__Firmicutes_D;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae`<br>を箱ひげ図に | `matplotlib`, `seaborn` |
 | 5 | 積み上げ棒グラフで、サンプルごとの組成を可視化 |  |
+
+<details>
+<summary>画像</summary>
+
+②後
+![百分率](sources/img/microbiome/checkpoint01.png)
+
+④後
+![箱ひげ図](sources/img/microbiome/checkpoint02.png)
+
+④後
+![積み上げ棒グラフ](sources/img/microbiome/checkpoint03.png)
+
+
+</details>
 
 <details>
 <summary>Cite</summary>
@@ -73,6 +152,22 @@ Nagata N, Nishijima S, Kojima Y, Hisada Y, Imbe K, Miyoshi-Akiyama T, Suda W, Ki
 | 7 | t-SNE結果を散布図で可視化 | `matplotlib`, `seaborn` |
 | 8 | 細胞種ごとに`IL7R`の発現量を`violinplot`で可視化 | `seaborn` |
 
+<details>
+<summary>画像</summary>
+
+③後
+![CMP-log1p](sources/img/scRNA-Seq/checkpoint01.png)
+
+⑤後
+![UMAP](sources/img/scRNA-Seq/checkpoint02.png)
+
+⑦後
+![t-SNE](sources/img/scRNA-Seq/checkpoint03.png)
+
+⑧後
+![il7r](sources/img/scRNA-Seq/checkpoint04.png)
+
+</details>
 
 <details>
 <summary>Cite</summary>
