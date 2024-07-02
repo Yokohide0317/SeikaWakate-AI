@@ -115,11 +115,11 @@ Ravindranathan P, Pasham D, Balaji U, Cardenas J, Gu J, Toden S, Goel A. Mechani
 
 | No. | 手順 | キーワード |
 | :---: | --- | --- |
-| 1 | データの読み込み。最初の列をindex。 | `pandas` |
-| 2 | サンプルごとに百分率化 | 合計値を`100`に揃える |
-| 3 | index列を元に、group列を追加 |  |
-| 4 | `d__Bacteria;p__Firmicutes_D;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae`<br>を箱ひげ図に | `matplotlib`, `seaborn` |
-| 5 | 積み上げ棒グラフで、サンプルごとの組成を可視化 |  |
+| 1 | データの読み込み。最初の列をindex列とする。 | `pandas` |
+| 2 | サンプル行ごとに百分率化 | 合計値を`100`に揃える |
+| 3 | index列を元に、group列を追加 (例: `CTRL_feces_028`->`CTRL`) |  |
+| 4 | `d__Bacteria;p__Firmicutes_D;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae`列<br>を箱ひげ図に | `matplotlib`, `seaborn` |
+| 5 | 積み上げ棒グラフで、各サンプル行の組成を可視化(超難問) |  |
 
 <details>
 <summary>画像</summary>
