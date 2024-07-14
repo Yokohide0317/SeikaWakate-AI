@@ -160,11 +160,11 @@ Google Colaboratoryでcsvを読み込みたいです。
 # データ
 	d__Bacteria;p__Campylobacterota;c__Campylobacteria;o__Campylobacterales;f__Campylobacteraceae	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacterales_A_737866;f__Succinivibrionaceae	
 CTRL_feces_028	5	1
-CTRL_feces_099	4
+CTRL_feces_099	4	0
 CTRL_feces_100	0	1
 PDAC_feces_001	0	0
 PDAC_feces_002	0	1
-PDAC_feces_003	0
+PDAC_feces_003	0	1
 ---
 
 ```
@@ -177,7 +177,7 @@ index列を元に、group列を追加してください。 (例: `CTRL_feces_028
 
 4. `d__Bacteria;p__Firmicutes_D;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae`列を箱ひげ図に
 ```
-先程のデータの`d__Bacteria;p__Firmicutes_D;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae`列を箱ひげ図にしてください。
+先程のデータの`d__Bacteria;p__Firmicutes_D;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae`列を<br>箱ひげ図にしてください。
 ```
 
 
@@ -223,6 +223,42 @@ Nagata N, Nishijima S, Kojima Y, Hisada Y, Imbe K, Miyoshi-Akiyama T, Suda W, Ki
 
 ⑧後
 ![il7r](sources/img/scRNA-Seq/checkpoint04.png)
+
+</details>
+
+<details>
+<summary>ChatGPTへの指示例</summary>
+
+1. データの読み込みx2
+```
+# 前提
+あなたは優秀なアシスタントです。
+私は生物学者で、Python初心者です。細かく教えて下さい。
+
+# やりたいこと
+Google Colaboratoryでcsvを読み込みたいです。
+`/contents/scRNASeq_counts_pbmc_preped.csv`
+と
+`/contents/scRNASeq_cluster_pbmc_preped.csv`
+にアップロードしました。
+それぞれ、`counts`、`cluster`という名前の変数に、
+一番左の列をindexとして、読み込む方法を教えて下さい。
+```
+
+2. Cellごとに発現量を全マッピング数で補正
+```
+# やりたいこと
+先ほど読み込んだデータは、single cell RNA-Seq解析のカウントデータです。
+補正されていないので、「Cellごとに発現量を全マッピング数で補正」する必要があるようです。
+データは以下の通りです。やり方を教えて下さい。
+
+# データ
+CellID	Gene1	Gene2	Gene3
+
+
+```
+
+
 
 </details>
 
