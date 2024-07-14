@@ -252,9 +252,11 @@ Google Colaboratoryでcsvを読み込みたいです。
 補正されていないので、「Cellごとに発現量を全マッピング数で補正」する必要があるようです。
 データは以下の通りです。やり方を教えて下さい。
 
-# データ
-CellID	Gene1	Gene2	Gene3
-
+# データ（例）
+CellID	Gene1	Gene2	Gene3	...
+AGATGA-1	1	20	5	...
+AGATGG-1	4	10	4	...
+...
 
 ```
 
