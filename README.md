@@ -137,6 +137,53 @@ Ravindranathan P, Pasham D, Balaji U, Cardenas J, Gu J, Toden S, Goel A. Mechani
 </details>
 
 <details>
+<summary>ChatGPTへの指示例</summary>
+
+1. データの読み込み
+```
+# 前提
+あなたは優秀なアシスタントです。
+私は生物学者で、Python初心者です。細かく教えて下さい。
+
+# やりたいこと
+Google Colaboratoryでcsvを読み込みたいです。
+`/contents/microbiome_level5_counts.csv`にアップロードしました。
+一番左の列をindexとして、読み込む方法を教えて下さい。
+```
+
+2. サンプル行ごとに百分率化
+```
+# やりたいこと
+読み込んだら、以下のようなデータになっていました。
+サンプルごとに百分率化したいです。コードを教えて下さい。
+
+# データ
+	d__Bacteria;p__Campylobacterota;c__Campylobacteria;o__Campylobacterales;f__Campylobacteraceae	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacterales_A_737866;f__Succinivibrionaceae	
+CTRL_feces_028	5	1
+CTRL_feces_099	4
+CTRL_feces_100	0	1
+PDAC_feces_001	0	0
+PDAC_feces_002	0	1
+PDAC_feces_003	0
+---
+
+```
+
+3. index列を元に、group列を追加 (例: `CTRL_feces_028`->`CTRL`)
+```
+先程のデータにgroup列を追加したいです。
+index列を元に、group列を追加してください。 (例: `CTRL_feces_028`->`CTRL`)
+```
+
+4. `d__Bacteria;p__Firmicutes_D;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae`列を箱ひげ図に
+```
+先程のデータの`d__Bacteria;p__Firmicutes_D;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae`列を箱ひげ図にしてください。
+```
+
+
+</details>
+
+<details>
 <summary>Cite</summary>
 Nagata N, Nishijima S, Kojima Y, Hisada Y, Imbe K, Miyoshi-Akiyama T, Suda W, Kimura M, Aoki R, Sekine K, Ohsugi M, Miki K, Osawa T, Ueki K, Oka S, Mizokami M, Kartal E, Schmidt TSB, Molina-Montes E, Estudillo L, Malats N, Trebicka J, Kersting S, Langheinrich M, Bork P, Uemura N, Itoi T, Kawai T. Metagenomic Identification of Microbial Signatures Predicting Pancreatic Cancer From a Multinational Study. Gastroenterology. 2022 Jul;163(1):222-238. doi: 10.1053/j.gastro.2022.03.054. Epub 2022 Apr 8. PMID: 35398347.
 </details>
