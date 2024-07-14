@@ -194,7 +194,7 @@ Nagata N, Nishijima S, Kojima Y, Hisada Y, Imbe K, Miyoshi-Akiyama T, Suda W, Ki
 | File | Description |
 |:---:|:---:|
 | [scRNASeq_counts_pbmc_preped.csv](https://github.com/Yokohide0317/SeikaWakate-AI/blob/main/data/scRNASeq_counts_pbmc_preped.csv) | 末梢血のシングルセルごとのカウントデータ |
-| [scRNASeq_counts_pbmc_preped.csv](https://github.com/Yokohide0317/SeikaWakate-AI/blob/main/data/scRNASeq_cluster_pbmc_preped.csv) | `scRNASeq_counts_pbmc_preped.csv`の細胞種アノテーション |
+| [scRNASeq_cluster_pbmc_preped.csv](https://github.com/Yokohide0317/SeikaWakate-AI/blob/main/data/scRNASeq_cluster_pbmc_preped.csv) | `scRNASeq_counts_pbmc_preped.csv`の細胞種アノテーション |
 
 ### 手順（例）
 
