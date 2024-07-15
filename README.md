@@ -3,6 +3,13 @@
 
 ---
 
+2024/07/15<br>
+この度はご参加頂き、ありがとうございました。<br>
+各章の"画像"を作ったときのコードを[examples](https://github.com/Yokohide0317/SeikaWakate-AI/tree/main/examples)に置きました。<br>
+ご参考にして、今後の研究などに活かして頂けると大変幸いでございます。
+
+---
+
 # ChatGPTを活用！Pythonでデータ解析
 
 ## 説明 & Google Colaboratoryの使い方
