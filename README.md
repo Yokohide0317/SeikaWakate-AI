@@ -5,7 +5,7 @@
 
 2024/07/15<br>
 この度はご参加頂き、ありがとうございました。<br>
-[examples](https://github.com/Yokohide0317/SeikaWakate-AI/tree/main/examples)に置きました。<br>
+[examples](https://github.com/Yokohide0317/SeikaWakate-AI/tree/main/examples)に解析例を置きました。<br>
 ご参考にして、今後の研究などに活かして頂けると大変幸いでございます。
 
 ---
